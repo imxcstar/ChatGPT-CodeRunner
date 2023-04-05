@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "CodeRunner",
+  "name_for_human": "Code Runner",
+  "description_for_model": "A plugin used to run csharp or Python code, which can be used to run the code and obtain results whenever a user requests to run csharp or Python code. (Note: csharp only supports dotnet script mode. The version of Python is 3.8. The requested content code requires JSON format encoding. The executed code needs to be output to the console to have a return.)",
+  "description_for_human": "Code Runner",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://sbox.e-desk.cloud/swagger/v1/swagger.yaml"
+  },
+  "logo_url": "https://sbox.e-desk.cloud/.well-known/logo.png",
+  "contact_email": "hello@contact.com",
+  "legal_info_url": "hello@legal.com"
+}
+
